@@ -4,7 +4,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <nav className={classes.Topbar}>
+
  <img src="/images/amazon.jpg" />
+        </nav>
       </header>
     </div>
   );
