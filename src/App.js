@@ -11,7 +11,7 @@ function App() {
 
      <div className={classes.MainContainer}>
         <div className={classes.ProductPreview}>
-
+          <img src="https://imgur.com/iOeUBV7.png" alt="Product Preview"/>
         </div>
      </div>
 
