@@ -1,5 +1,6 @@
 import React from "react";
-import classes from  './App.module.css'
+import ProductData from "./ProductData";
+import classes from  './App.module.css';
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,10 @@ function App() {
      <div className={classes.MainContainer}>
         <div className={classes.ProductPreview}>
           <img src="https://imgur.com/iOeUBV7.png" alt="Product Preview"/>
+        </div>
+
+        <div className={classes.ProductData}>
+         <h1 className={classes.ProductTitle}>{ProductData.title}</h1>
         </div>
      </div>
 
