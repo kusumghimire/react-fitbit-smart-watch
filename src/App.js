@@ -17,6 +17,9 @@ function App() {
 
         <div className={classes.ProductData}>
          <h1 className={classes.ProductTitle}>{ProductData.title}</h1>
+         <p className={classes.ProductDescription}>{ProductData.description}</p>
+        
+        <h3 className={classes.SectionHeading}>Select Color</h3>
         </div>
      </div>
 
