@@ -5,10 +5,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <nav className={classes.Topbar}>
-
- <img src="/images/amazon.jpg" />
+         <img src="/images/amazon.jpg" />
         </nav>
       </header>
+
+     <div className={classes.MainContainer}>
+        <div className={classes.ProductPreview}>
+
+        </div>
+     </div>
+
     </div>
   );
 }
